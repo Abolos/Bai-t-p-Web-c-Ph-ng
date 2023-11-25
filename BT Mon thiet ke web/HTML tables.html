@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng trong HTML</title>
+    <style>
+        table,th,td {border: 2px solid rgb(37, 158, 215);font-size:}
+        .table_color,.table_color th,.table_color td {border: 2px solid rgb(37, 158, 215);font-size:}
+        .table_color th,.table_color td {background-color: aquamarine;}
+        .table_tron,.table_tron th,.table_tron td {border:3px solid rgb(29, 196, 208);border-radius:10px;}
+    </style>
+</head>
+    <body>
+        <!-- Tạo bản thông thường -->
+        <h1>Bảng Thông Tin Học Sinh</h1>
+        <table class="table_basic" style="text-align: center; width:100%">
+            <tr>
+                <th>Họ và tên</th>
+                <th>Lớp</th>
+                <th>Quê quán</th>
+            </tr>
+            <tr>
+                <td>Trần Thế Quân</td>
+                <td>CNTT D2022A</td>
+                <td>Thanh Hóa</td>
+            </tr>
+            <tr>
+                <td>Lê ĐĂNG Giáp</td>
+                <td>CNTT D2022A</td>
+                <td>Nghệ An</td>
+            </tr>
+            <tr>
+                <td>Nguyễn Bá Thành</td>
+                <td>CNTTD 2022A</td>
+                <td>Hà Nội</td>
+            </tr>
+        </table>
+
+        <!-- Bảng có màu -->
+        <h4>Bảng có màu nền</h4>
+        <table class="table_color" style="width:100%">
+            <tr>
+                <th>Họ và tên</th>
+                <th>Năm sinh</th>
+                <th>Quê quán</th>
+            </tr>
+            <tr>
+                <td>Trần Thế Quân</td>
+                <td>2004</td>
+                <td>Thanh Hóa</td>
+            </tr>
+        </table>
+
+        <!-- Bảng có ô được bo góc -->
+
+        <h4>Tạo bảng ô tròn</h4>
+        <table class="table_tron" style="width:100%">
+          <tr>
+            <th>Họ Và Tên</th>
+            <th>Năm Sinh</th>
+            <th>Quê Quán</th>
+          </tr>  
+          <tr>
+            <td style="text-align: center;">Trần Thế Quân</td>
+            <td style="text-align: center;">2004</td>
+            <td style="text-align: center;">Thanh Hóa</td>
+          </tr>
+        </table>
+    </body>
+</html>

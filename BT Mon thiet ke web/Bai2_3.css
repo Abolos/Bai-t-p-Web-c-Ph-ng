@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    list-style: none;
+}
+ body {
+    background-color:rgb(202, 202, 202) ;
+ }
+ .phu_de {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+ }
+ .phu_de p {
+    line-height: 80px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .phu_de div {
+    line-height: 80px;
+ }
+ .phu_de div input {
+    width: 300px;
+    height: 30px;
+ }
+ .input_look_of {
+    position: relative;
+ }
+ .input_look_of input [type="text"]  {
+    padding-right: 30px; /* Để tạo khoảng trống bên phải để chứa biểu tượng */
+ }
+ .fa-magnifying-glass {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+ }
+
+ header nav {
+    width: 100%;
+    height: 36px;
+    background-color: rgb(163, 14, 14);
+ }
+
+ .main_1_bar {
+    width: 100%;
+    height: 4px;
+    background-color:grey ;
+ }
+
+ .content_main {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+ .content_main ul {
+    flex: 1;
+ }
+ .main_1 {
+    flex: 2;
+ }
+.main_2 {
+    flex: 1;
+}
+.main_2 ol {
+    display: block;
+}
+.main_2 ol li {
+    display: block;
+}

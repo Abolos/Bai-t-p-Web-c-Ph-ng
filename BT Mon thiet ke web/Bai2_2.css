@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header .box {
+    width: 100%;
+    height: 80px;
+}
+header .tieu_de {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+header .tieu_de .tieu_de_item {
+    display: flex;
+    line-height: 80px;
+}
+header span {
+    line-height: 80px;
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .tieu_de .tieu_de_item  p {
+    padding-left: 10px;
+    color: grey;
+    font-weight: 700;
+    font-size: 20px;
+}
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(124, 10, 119);
+}
+nav .nav_ul {
+    justify-content: space-around;
+    display: flex;
+}
+nav .nav_ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 80px;
+}
+nav .nav_ul li a {
+    color: white;
+
+}
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer div {
+    background-color: rgb(124, 10, 119);
+    width: 100%;
+    height: 500px;
+}
+footer p{
+    margin-top: 80px;
+    margin-left: 10%;
+}
+
+
+

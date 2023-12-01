@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+body {
+    Font-family: 'Roboto Slab', serif;
+    background-color:aliceblue;
+}
+
+main #s22 {
+    width: auto;
+    height: 20px;
+    background-color: black;
+}
+
+main {
+    width:  560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    background-color: #fff;
+    margin-bottom: 25px;
+}
+
+main .main {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+main .main h3 {
+    color:rgb(19, 151, 151);
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+main .main ul {
+    margin-top: 15px;
+}
+
+main .main ul li a {
+    font-size: 20px;
+    color: rgb(66, 189, 189);
+}
+
+main .main ul li a:hover {
+    color: rgb(228, 228, 19);
+}
+
+main .main .img {
+    width: auto;
+    height: 430px;
+    background-color:  rgb(194, 186, 186);
+    margin-top: 25px;
+}
+
+main .main p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(66, 68, 189);
+    padding-bottom: 15px;
+}

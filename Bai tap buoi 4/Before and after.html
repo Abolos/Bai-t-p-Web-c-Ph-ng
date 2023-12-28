@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before anh after</title>
+    <style>
+        a.chu {
+            position:relative;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        /* After chèn them một nội dung trong thẻ a */
+        a.chu:after{
+            content: ' ';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0%;
+            height: 2px;
+            background: gold;
+            transition: 0.4s;
+        }
+        a.chu:hover:after {
+            width: 100%;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <a href="" class="chu">
+        <span>Thiet ke web</span>
+    </a>
+</body>
+</html>

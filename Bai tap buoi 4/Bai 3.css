@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header .father {
+    width: 100%;
+    position: relative;
+}
+
+header .nav {
+    display: flex;
+    position:absolute;
+    top:36px;
+    justify-content: space-between;
+    width: 100%;   
+}
+
+header .nav .nav_item_2 {
+    display: flex;
+    line-height: 36px;
+    padding-right: 5%;
+
+}
+header .nav .nav_item_1 {
+    color: white;
+    font-size: 22px;
+    line-height: 36px;
+    padding-left: 5%;
+}
+
+header .nav .nav_item_2 li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+header .nav .nav_item_2 li a .fa-magnifying-glass, .fa-bag-shopping {
+    font-size: 25px;
+}
+
+header .nav .nav_item_2 li a {
+    position:relative; 
+}
+
+header .nav .nav_item_2 li a:after{
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 1px;
+    background: white;
+    transition: 0.4s;
+}
+
+header .nav .nav_item_2 li a:hover:after {
+    width: 100%;
+    left: 0;
+}
+#sos:after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height: 1px;
+    background: white;
+    transition: 0.4s;
+}
+
+main .header{
+    margin-top: 36px;
+    text-align: center;
+    font-size: 25px;
+}
+
+main .header span {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+main .content_main_item {
+    width: 22%;
+    padding-bottom: 36px;
+}
+
+main .content_main_item img {
+    width: 100%;
+}
+
+main .content_main_item div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+main .content_main_item div p {
+    font-size: 15px;
+}
+
+main .content_main_item div .money {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+main .content_main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto;
+    flex-wrap: wrap;
+    margin-top: 36px;
+}
+
+main .button a {
+    padding: 15px 20px;
+    font-size: 20px;
+    border: solid 2px grey;
+    margin-left: 10%;
+    color: gray;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto;
+}
+
+footer div img {
+    width: 30%;
+}
+
+hr {
+    margin-top: 36px;
+    padding-bottom: 36px;
+}
+
+header .nav .nav_item_2 {
+    position: relative;
+}
+
+header .nav .nav_item_2 .menu_1 div {
+    padding-top: 10px;
+}
+
+
+header .nav .nav_item_2 .menu_1 div ul {
+    position: absolute;
+    padding-right: 50px;
+    background-color: white;
+    left: 25px;
+    display: none;    
+}
+
+header .nav .nav_item_2 .menu_1 div ul li a {
+    color: black;
+    font-size: 17px;
+
+}
+
+header .nav .nav_item_2 .menu_1 div ul li a:after{
+    background-color: black;
+}
+
+header .nav .nav_item_2 .menu_1:hover div ul {
+    display: block;
+}
+
+header .nav .nav_item_2 .menu_1 .item_2 ul {
+    left: 100px;  
+}
+
+header .nav .nav_item_2 .menu_1 .item_3 ul {
+    left: 200px;  
+}
+
+header .nav .nav_item_2 .menu_1 .item_4 ul {
+    left: 300px;  
+}
+
+header .nav .nav_item_2 .menu_1 .item_5 ul {
+    left: 400px;  
+}
+
+header .nav .nav_item_2 .menu_1 div ul .menu_3{
+    position: relative;
+}
+
+header .nav .nav_item_2 .menu_1 div ul .menu_3 div {
+    margin-right: 150px;
+    display: none;
+     
+}
+
+header .nav .nav_item_2 .menu_1 div ul .menu_3 div ul {
+    position: absolute;
+    left:50px;
+    top: 0;
+    margin-left: 100px;
+    padding-right: 50px;
+}
+
+header .nav .nav_item_2 .menu_1 div ul .menu_3:hover div {
+    display: block;
+}
